@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.block {
+  text-align: center;
+  width: 300px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  margin: 20px 0px 0px;
+}
+.block h1,
+p {
+  padding: 10px;
+}
+.Blockbody {
+  background-color: #a7d175;
+
+  color: white;
+}
+.block h1 {
+  background-color: #52a874;
+  color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.BlockFot {
+  display: flex;
+  justify-content: space-between;
+}
+.BlockFot p {
+  display: inline-block;
+  width: 125px;
+  border: 1px solid #a7d175;
+}
+.block p {
+  font-size: 14px;
+}

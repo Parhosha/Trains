@@ -1,0 +1,41 @@
+a {
+  padding: 10px 30px;
+  text-decoration: none;
+  background-color: cornsilk;
+  border-radius: 20px;
+  box-shadow: 8px 8px 20px gray;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+a:hover {
+  box-shadow: 2px 2px 5px gray;
+}
+
+.blocks a {
+}
+h1 {
+  background-color: #52a874;
+  color: white;
+  padding-left: 125px;
+}
+a:visited {
+  color: black;
+}
+.blocks {
+  width: 300px;
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  left: 100px;
+  float: left;
+}
+.caption {
+  display: inline-block;
+  margin: 100px 80px;
+  width: 300px;
+  text-align: center;
+}
+.caption p {
+  padding-left: 0px;
+}

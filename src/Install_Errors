@@ -1,0 +1,15 @@
+
+Install project
+---------------
+npx create-react-app my-app
+cd my-app
+npm start
+
+----
+
+
+$ npm install --save react-router-dom
+npm install --save redux
+npm install redux-thunk
+npm install --save react-redux
+$ npm install axios
