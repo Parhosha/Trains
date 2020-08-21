@@ -1,4 +1,5 @@
 const ADDTASK = 'ADDTASK';
+const CLEAR = 'CLEAR';
 
 let inintReducer = {
   exercise: [
@@ -50,6 +51,13 @@ const MainReducer = (state = inintReducer, action) => {
         desciption: action.desciption,
       };
 
+    case CLEAR:
+      console.log('clear');
+      return {
+        ...state,
+        exercise: [],
+      };
+
     default:
       return state;
   }
@@ -58,7 +66,12 @@ const MainReducer = (state = inintReducer, action) => {
 export default MainReducer;
 
 export const setTask = (data) => ({ type: ADDTASK, data });
+export const clear = () => ({ type: CLEAR });
 
 export const setTaskAC = (formData) => async (dispatch) => {
   dispatch(setTask(formData));
+};
+export const clearAC = () => async (dispatch) => {
+  console.log('AC');
+  dispatch(clear());
 };

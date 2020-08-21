@@ -32,6 +32,10 @@ const MainPage = (props) => {
         <a href="#" onClick={() => speak(props.exercise)}>
           Voice
         </a>
+        <br />
+        <a href="#" onClick={() => props.clearAC()}>
+          Clear
+        </a>
 
         {SpeakArrComp}
       </div>
